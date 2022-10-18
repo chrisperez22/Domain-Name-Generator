@@ -17,9 +17,9 @@ function randomgenerator(multiply) {
 window.onload = function() {
   document.getElementById("excuse").innerHTML =
     pronoun[randomgenerator(pronoun)] +
-    " " +
+    "" +
     adj[randomgenerator(adj)] +
-    " " +
+    "" +
     noun[randomgenerator(noun)] +
     "" +
     ext[randomgenerator(ext)];
